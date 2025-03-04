@@ -1,5 +1,5 @@
-name: Suggestion - Specific
-description: Suggest a specific and actionable change about existing content. These suggestions should be under a paragraph in length, otherwise see 'Suggestion - Addition/Broad/Lore' below.
+name: Feature Request
+description: Suggest any change or addition you would like to see. Please be as specific as possible.
 title: Country Name or Tag - Summary of Suggestion
 labels: 'Suggestion - Specific'
 body:
@@ -39,6 +39,13 @@ body:
       label: Kaiserreich Version
       description: |
         Write the **full version number** of Kaiserreich that you were playing on - for example, 1.2 or 1.1.4.
+        **SPECIFY THE VERSION NUMBER - DO NOT SIMPLY WRITE IN "CURRENT", "LATEST", ETC.**
+  - type: input
+    id: uwts_version
+    attributes:
+      label: Up With the Stars Version
+      description: |
+        Write the **full version number** of Kaiserreich that you were playing on - for example, 0.1.1 or 1.0.0
         **SPECIFY THE VERSION NUMBER - DO NOT SIMPLY WRITE IN "CURRENT", "LATEST", ETC.**
     validations:
       required: true
