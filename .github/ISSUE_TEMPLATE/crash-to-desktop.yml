@@ -2,7 +2,6 @@ name: Crash to Desktop
 description: Assist us in tracking down in-game crashes. For crashing while opening the mod, see 'Installation/Running Issues' below.
 title: Country Name or Tag - Summary of CTD
 labels: 'Crash'
-assignees: 'Alpinia'
 body:
   - type: markdown
     attributes:
@@ -27,6 +26,13 @@ body:
     id: kr_version
     attributes:
       label: Kaiserreich Version
+      description: |
+        Write the **full version number** of Kaiserreich that you were playing on - for example, 1.2 or 1.1.4.
+        **SPECIFY THE VERSION NUMBER - DO NOT SIMPLY WRITE IN "CURRENT", "LATEST", ETC.**
+  - type: input
+    id: uwts_version
+    attributes:
+      label: Up With the Stars Version
       description: |
         Write the **full version number** of Kaiserreich that you were playing on - for example, 1.2 or 1.1.4.
         **SPECIFY THE VERSION NUMBER - DO NOT SIMPLY WRITE IN "CURRENT", "LATEST", ETC.**
