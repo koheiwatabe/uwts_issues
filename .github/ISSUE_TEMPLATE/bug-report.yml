@@ -32,6 +32,15 @@ body:
     validations:
       required: true
   - type: input
+    id: uwts_version
+    attributes:
+      label: Up With the Stars Version
+      description: |
+        Write the **full version number** of Kaiserreich that you were playing on - for example, 1.2 or 1.1.4.
+        **SPECIFY THE VERSION NUMBER - DO NOT SIMPLY WRITE IN "CURRENT", "LATEST", ETC.**
+    validations:
+      required: true
+  - type: input
     id: other_mods
     attributes:
       label: Other Mods
